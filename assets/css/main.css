@@ -8,7 +8,7 @@
 */
 
 html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+iframe, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -24,7 +24,7 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	hor
+
 }
 
 article, aside, details, figcaption, figure,
@@ -47,6 +47,18 @@ blockquote, q {
 		content: '';
 		content: none;
 	}
+
+h1 {
+	margin: auto;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	text-align: center;
+}
+
+#intro {
+	text-align: center;
+}
 
 table {
 	border-collapse: collapse;
@@ -89,6 +101,10 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
+		#Googlemaps, #Fotos {
+			width: 100%;
+			height: 100px;
+		}
 
 	}
 
@@ -118,12 +134,13 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: #f3fdff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
 		line-height: 1.65;
+		text-shadow: 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -131,22 +148,33 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 14pt;
 			}
+			#Googlemaps, #Fotos {
+				width: 100%;
+				height: 50px;
+			}
 
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
-			}
+				font-size: 8pt;
+			}#Googlemaps, #Fotos {
+				 width: 100%;
+				 height: 50px;
+			 }
 
 		}
 
 		@media screen and (max-width: 360px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 6pt;
 			}
+			#Googlemaps, #Fotos {
+				 width: 100%;
+				 height: 50px;
+			 }
 
 		}
 
@@ -221,15 +249,15 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 2em;
+			font-size: 1em;
 		}
 
 		h2 {
-			font-size: 1.5em;
+			font-size: 0,75em;
 		}
 
 		h3 {
-			font-size: 1.25em;
+			font-size: 0,5em;
 		}
 
 	}
@@ -3625,6 +3653,11 @@ input, select, textarea {
 			border-bottom: solid 1px rgba(212, 212, 255, 0.1);
 		}
 
+#two {
+	padding: 0;
+	margin: 0;
+	min-height: 7em;
+}
 /* Contact */
 
 	#contact {
@@ -3740,6 +3773,10 @@ input, select, textarea {
 			margin-left: 0;
 			padding-left: 0;
 			line-height: inherit;
+		}
+		#Googlemaps, #Fotos {
+			width: 100%;
+			height: 200px;
 		}
 
 	}
@@ -3974,4 +4011,9 @@ input, select, textarea {
 	#FotoOptreden {
 		width: 68%;
 		height: 68%;
+	}
+
+	#Googlemaps, #Fotos {
+		width: 100%;
+		height: 400px;
 	}
