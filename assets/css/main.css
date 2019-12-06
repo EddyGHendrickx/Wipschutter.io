@@ -28,11 +28,12 @@ h1 {
 
 .intro {
 	color: #000000;
+	background-color: #FFFFFF; opacity: 0.5;
+	padding: 1em;
 }
 
 .intro:first-child {
 	text-align: center;
-
 }
 
 html, body, div, span, applet, object,
@@ -116,9 +117,7 @@ input, select, textarea {
 
 /* Basic */
 
-	@-ms-viewport {
-		width: device-width;
-	}
+
 
 	body {
 		-ms-overflow-style: scrollbar;
@@ -1828,7 +1827,6 @@ input, select, textarea {
 
 	header.major {
 		width: -moz-max-content;
-		width: -ms-max-content;
 		width: max-content;
 		margin-bottom: 2em;
 	}
@@ -2892,19 +2890,22 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-image: url("https://scontent-bru2-1.xx.fbcdn.net/v/t31.0-8/p960x960/14138704_10154478344246800_3520637297482250876_o.jpg?_nc_cat=102&_nc_ohc=xPk94tr4wioAQmceR2jJrfvot0t4Pm6cBMr8lBwcH_PO2fbXPkEEOq6ow&_nc_ht=scontent-bru2-1.xx&oh=01b08da383ad8e0503279623af51e893&oe=5E83CACF");
+				background-size: 100%;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
 				background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/191008155125-frontier-beer-1-exlarge-169.jpg");
+				background-position: top 4em;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #28aaa6;
+				background-image: url("https://scontent-bru2-1.xx.fbcdn.net/v/t31.0-0/p640x640/194993_10151099402651800_408705146_o.jpg?_nc_cat=102&_nc_ohc=G_Vo6DUWgcMAQn5nMKJjREe9tyaRHd2n_1uPL97RPNV05Lr69778h90IQ&_nc_ht=scontent-bru2-1.xx&oh=3920156290179843d8ab8e3877305e47&oe=5E847001");
+				background-size: 100% 100%;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
+				background-color: #0807e8;
 			}
 
 			.tiles article:nth-child(6n):before {
@@ -3062,7 +3063,6 @@ input, select, textarea {
 
 				.spotlights > section:nth-child(2n) > .content {
 					-moz-align-items: -moz-flex-end;
-					-webkit-align-items: -webkit-flex-end;
 					-ms-align-items: -ms-flex-end;
 					align-items: flex-end;
 				}
@@ -3215,7 +3215,7 @@ input, select, textarea {
 			}
 
 			#header .logo:active strong {
-				background-color: #53e3fb;
+				background-color: #0a12fb;
 			}
 
 		#header nav {
@@ -3224,7 +3224,6 @@ input, select, textarea {
 			display: -ms-flex;
 			display: flex;
 			-moz-justify-content: -moz-flex-end;
-			-webkit-justify-content: -webkit-flex-end;
 			-ms-justify-content: -ms-flex-end;
 			justify-content: flex-end;
 			-moz-flex-grow: 1;
@@ -3314,7 +3313,7 @@ input, select, textarea {
 			background-color: transparent;
 			box-shadow: none;
 			position: absolute;
-		}
+		} /* colors of cards */
 
 			#header.alt.style1 .logo strong {
 				color: #6fc3df;
