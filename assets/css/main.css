@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	hor
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2150,11 +2152,11 @@ input, select, textarea {
 	}
 
 	a.icon.alt:hover:before {
-		background-color: #6fc3df;
+		background-color: #df2225;
 	}
 
 	a.icon.alt:active:before {
-		background-color: #37a6cb;
+		background-color: #cb1615;
 	}
 
 /* Image */
@@ -2401,12 +2403,12 @@ input, select, textarea {
 				}
 
 					ul.pagination li > .page.active:hover {
-						background-color: #9bf1ff;
+						background-color: #ff1a24;
 						color: #242943 !important;
 					}
 
 					ul.pagination li > .page.active:active {
-						background-color: #53e3fb;
+						background-color: #fb0e11;
 					}
 
 			ul.pagination li:first-child {
@@ -2540,8 +2542,8 @@ input, select, textarea {
 		button:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 2px #9bf1ff;
-			color: #9bf1ff;
+			box-shadow: inset 0 0 0 2px #ff110e;
+			color: #ff0b0e;
 		}
 
 		input[type="submit"]:active,
@@ -2550,8 +2552,8 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: rgba(155, 241, 255, 0.1);
-			box-shadow: inset 0 0 0 2px #53e3fb;
-			color: #53e3fb;
+			box-shadow: inset 0 0 0 2px #fb2121;
+			color: #fb2628;
 		}
 
 		input[type="submit"].icon:before,
@@ -2693,7 +2695,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #53e3fb;
+				background-color: #fb1811;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2830,7 +2832,8 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-image: url("https://scontent-bru2-1.xx.fbcdn.net/v/t1.0-9/p720x720/46098173_10157044167121800_1333094927407513600_o.jpg?_nc_cat=102&_nc_ohc=GwC-9nfKA38AQmVNhfbMGoQWToZ91NA6S36TpRcB_GJWecRUIwFYTMb4Q&_nc_ht=scontent-bru2-1.xx&oh=840464eb7113f7b2a674b09219510eea&oe=5E6CBC2A");
+				background-size: 100% 100%;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
@@ -3855,7 +3858,7 @@ input, select, textarea {
 
 					#menu ul.links > li > a:not(.button) {
 						border: 0;
-						border-top: solid 1px rgba(212, 212, 255, 0.1);
+						border-top: solid 1px rgba(255, 5, 15, 0.55);
 						display: block;
 						font-size: 0.8em;
 						font-weight: 600;
@@ -3954,4 +3957,21 @@ input, select, textarea {
 
 	#Upperrighttitle {
 		margin-right: 1em;
+	}
+
+	.Fotos {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+
+	}
+
+	#RoodWip {
+		width: 45%;
+		height: 45%;
+	}
+
+	#FotoOptreden {
+		width: 68%;
+		height: 68%;
 	}
