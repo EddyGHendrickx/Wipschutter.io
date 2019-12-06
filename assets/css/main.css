@@ -1771,7 +1771,6 @@ input, select, textarea {
 
 	header.major {
 		width: -moz-max-content;
-		width: -webkit-max-content;
 		width: -ms-max-content;
 		width: max-content;
 		margin-bottom: 2em;
@@ -3128,6 +3127,7 @@ input, select, textarea {
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		justify-content: space-between;
 	}
 
 		#header .logo {
@@ -3398,6 +3398,7 @@ input, select, textarea {
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
+		justify-content: space-between;
 	}
 
 		#banner:after {
@@ -3950,3 +3951,7 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+	#Upperrighttitle {
+		margin-right: 1em;
+	}
