@@ -6,6 +6,11 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+
+h1 {
+	font-family: 'Shadows Into Light', cursive;}
+
 #bovenaan {
 	align-items: center;
 	display: flex;
@@ -22,7 +27,6 @@ h1 {
 	margin: auto;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	text-align: center;
 }
 
@@ -81,7 +85,6 @@ h1 {
 	margin: auto;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	text-align: center;
 }
 
